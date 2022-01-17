@@ -3,7 +3,7 @@ include('calculadora.php');
 include('funcionarios.php');
 
 $id =$_POST{'cpf'}
-$calculaadora = new calculadora();
+$calculadora = new calculadora();
 $funcionarios = new funcionarios();
 $func = $Funcionarioss->find('$cpf');
 $novoSalario = $calculadora->mult(

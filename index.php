@@ -10,7 +10,7 @@
 <form action= "funcionario.php" method="POST">
 <input type="number" name="cpf" placeholder="Coloque o CPF">
         <button type="submit">
-            Buscar
+            Pesquisar
 </button>
 </body>
 </html>
